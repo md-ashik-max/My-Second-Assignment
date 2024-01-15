@@ -14,7 +14,6 @@ body {
     height: 500px;
     width: 1170px;
     border-radius: 16px;
-    border-radius: 16px;
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
 }
@@ -44,6 +43,7 @@ body {
 }
 
 .banner-form {
+    display: flex;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     width: 800px;
@@ -72,4 +72,43 @@ body {
     color: #FFF;
     font-size: 1rem;
     font-weight: 700;
+}
+@media screen and (max-width:600px) {
+    .banner-section{
+        margin: 0;
+        width: 95%;
+        height: auto;
+    }
+    .banner-form{
+        flex-direction: column;
+        max-width: 300px;
+        height: auto;
+        margin-left:90px;
+        padding-top: 0;
+        
+    }
+    .banner-title{
+        padding: 10px;
+        text-align: center;
+        font-size: 1.5rem;
+
+    }
+    .banner-description
+    {
+        text-align: center;
+        font-size: 1rem;
+        max-width: 500px;
+        padding-left: 10px;
+        margin-top: 0;
+
+
+    }
+    .banner-form input ,
+    .btn-primary
+    {
+        width: 255px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    
 }
