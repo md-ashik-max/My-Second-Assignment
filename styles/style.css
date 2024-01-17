@@ -4,6 +4,45 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+.nav {
+    display: flex;
+    gap: 380px;
+}
+
+.nav-box-1 {
+    display: flex;
+    gap: 16px;
+    margin-top: 50px;
+    margin-left: 135px;
+}
+
+.nav-box-2 ul {
+    display: flex;
+    gap: 44px;
+    margin-top: 55px;
+    list-style: none;
+}
+
+.nav-box-2 a {
+    text-decoration: none;
+
+}
+
+#home {
+    color: #FF5400;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+#packages,
+#testimonial,
+#blog,
+#contact {
+    color: var(--Dark-02, #424247);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
 
 
 
@@ -462,12 +501,25 @@ body {
     margin-left: 624px;
     margin-top: 50px;
 }
-.footer-section hr{
+
+.footer-section hr {
     margin-left: 284px;
     margin-right: 284px;
 }
 
 @media screen and (max-width:600px) {
+    .nav{
+        gap: 0;
+        margin-bottom: 20px;
+    }
+    .nav-box-1{
+        margin-left: 20px;
+    }
+    .nav-box-2 ul{
+        display:none;
+
+    }
+
     .banner-section {
         margin: 0;
         width: 90%;
@@ -608,9 +660,10 @@ body {
         margin-top: 40px;
         margin-left: 0;
     }
-.section-container-1{
-    width: 90%;
-}
+
+    .section-container-1 {
+        width: 90%;
+    }
 
     .section-container-2 {
         width: 90%;
@@ -621,28 +674,34 @@ body {
         margin-left: 180px;
         margin-top: 140px;
     }
-.footer-section{
-    width: 100%;
-    margin-top: 24px;
-}
-.footer-box-1{
-    padding-left: 106px;
-    padding-top: 33px;
-}
-.footer-box-2{
-    width: 287px;
-    padding-left: 100px;
-}
-.footer-box-3{
-    padding-left: 120px;
-}
-.footer-section hr{
-    margin-left: 44px;
-    margin-right: 44px;
-}
-#copyright-tag{
-    margin-left: 100px;
-}
+
+    .footer-section {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .footer-box-1 {
+        padding-left: 106px;
+        padding-top: 33px;
+    }
+
+    .footer-box-2 {
+        width: 287px;
+        padding-left: 100px;
+    }
+
+    .footer-box-3 {
+        padding-left: 120px;
+    }
+
+    .footer-section hr {
+        margin-left: 44px;
+        margin-right: 44px;
+    }
+
+    #copyright-tag {
+        margin-left: 100px;
+    }
 
 
 }
