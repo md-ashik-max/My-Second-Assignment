@@ -462,7 +462,10 @@ body {
     margin-left: 624px;
     margin-top: 50px;
 }
-
+.footer-section hr{
+    margin-left: 284px;
+    margin-right: 284px;
+}
 
 @media screen and (max-width:600px) {
     .banner-section {
@@ -605,6 +608,9 @@ body {
         margin-top: 40px;
         margin-left: 0;
     }
+.section-container-1{
+    width: 90%;
+}
 
     .section-container-2 {
         width: 90%;
@@ -615,6 +621,28 @@ body {
         margin-left: 180px;
         margin-top: 140px;
     }
+.footer-section{
+    width: 100%;
+    margin-top: 24px;
+}
+.footer-box-1{
+    padding-left: 106px;
+    padding-top: 33px;
+}
+.footer-box-2{
+    width: 287px;
+    padding-left: 100px;
+}
+.footer-box-3{
+    padding-left: 120px;
+}
+.footer-section hr{
+    margin-left: 44px;
+    margin-right: 44px;
+}
+#copyright-tag{
+    margin-left: 100px;
+}
 
 
 }
