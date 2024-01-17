@@ -84,7 +84,6 @@ body {
     display: flex;
     margin-top: 50px;
     margin-left: 135px;
-    margin-right: 150px;
     gap: 50px;
 
 }
@@ -96,6 +95,10 @@ body {
 
 }
 
+.tours-container {
+    max-width: 577px;
+}
+
 .tours-description-1,
 .list,
 .tours-description-2 {
@@ -103,8 +106,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
-    width: ;
-    : 577px;
+    width: 577px;
 }
 
 .tours-container-img {
@@ -456,6 +458,8 @@ body {
 
     .tours-container {
         margin: 10px;
+        width: 90%;
+        height: auto;
     }
 
     .tours-container-img {
@@ -471,7 +475,7 @@ body {
 
     .container-description {
         margin: 10px;
-        width: 90%;
+        max-width: 90%;
     }
 
     .box-1,
@@ -541,6 +545,22 @@ body {
     .choose-us-description {
         padding-left: 0;
         width: 90%;
+    }
+
+    .newsletter-section {
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    .section-container-2 {
+        width: 90%;
+        height: 309px;
+    }
+
+    .section-box {
+        margin-left: 180px;
+        margin-top: 140px;
     }
 
 
